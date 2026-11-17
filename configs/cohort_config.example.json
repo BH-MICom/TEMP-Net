@@ -1,0 +1,11 @@
+{
+  "locked_test_patients": ["patient03", "patient07"],
+  "patient_aliases": {"patient05_1": "patient05", "patient05_2": "patient05"},
+  "patient_group_rule": "patient05_1 and patient05_2 merged",
+  "canonical_aliases": {},
+  "row_aliases": {"patient051": "patient05", "patient052": "patient05"},
+  "supplementary_masks": {"Patient09": "Patient09_TC.nii.gz"},
+  "revision_mask_session_only": {"Patient05": "ses-02"},
+  "merge_existing_and_revision_masks": ["Patient03"],
+  "session_by_suffix": ["Patient05"]
+}

@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Private data and experiment outputs
+/data/
+/outputs/
+/runs/
+*.npz
+*.nii
+*.nii.gz
+*.dcm
+*.vtp
+*.pth
+*.pt
+*.ckpt
+*.tar
+*.zip
+
+# Local audit artifacts
+_article_methods.txt
+
+# Private cohort config (patient identifiers); only the example is tracked
+configs/*.json
+!configs/cohort_config.example.json
+
+# Figures generated for the manuscript
+/*.pdf
+/*.png

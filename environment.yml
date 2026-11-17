@@ -1,0 +1,20 @@
+name: temp-net
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - pytorch-cuda=12.1
+  - numpy>=1.24
+  - scipy>=1.10
+  - scikit-image>=0.21
+  - pandas>=2.0
+  - pyyaml>=6.0
+  - pydicom>=2.4
+  - nibabel>=5.1
+  - simpleitk>=2.3
+  - matplotlib>=3.7
+  - pip
